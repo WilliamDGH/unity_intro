@@ -42,7 +42,7 @@ public class NumberWizzard : MonoBehaviour
         Debug.Log("The highest number you can pick is: " + max + ".");
         Debug.Log("The lowest number you can pick is: " + min + ".");
         Debug.Log("Tell me if your number is higher or lower than " + guess);
-        Debug.Log("Push Up = higher, Push Down = lower, Push Enter = Correct.");
+        Debug.Log("Push Up Arrow = higher, Push Down Arrow = lower, Push Enter = Correct.");
         max++;
     }
 
