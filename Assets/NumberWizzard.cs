@@ -25,7 +25,7 @@ public class NumberWizzard : MonoBehaviour
             UpdateGuess();
         }
         else if (Input.GetKeyDown(KeyCode.Return)) {
-            Debug.Log("Yes!!!!! The answer is " + guess + "!!!");
+            Debug.Log("Yes!!!!! The answer is " + guess + "!!");
             StartInscruction();
         }
 
